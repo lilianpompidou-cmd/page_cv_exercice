@@ -41,13 +41,28 @@ Suite aux premiers tests, les améliorations suivantes ont été intégrées :
 ### 4. Confidentialité
 Aucune donnée personnelle sensible (adresse postale, téléphone personnel, e-mail privé) n'est exposée sur ce dépôt public. Le contact se fait via le profil GitHub.
 
----
-
 ## 🛠️ Stack Technique
 - **HTML5** (Sémantique)
 - **CSS3** (Variables, Flexbox, CSS Grid, Media Queries)
 - **JavaScript** (ES6, manipulation du DOM, LocalStorage)
 - **Git / GitHub Pages** (Versionning et Hébergement)
+
+### 5. Récapitulatif des évaluations
+
+| Critère | Score (0–4) | Coef | Score pondéré | Justification courte (Objectivité) |
+|---|:---:|:---:|:---:|---|
+| **C1** Contenu | **4** | 10 | **40** | Contenu orienté résultats (chiffres, tâches précises), orthographe corrigée, concis. |
+| **C2** HTML sémantique | **4** | 10 | **40** | H1 unique, hiérarchie stricte, utilisation de `header`, `nav`, `main`, `section`, `article`. |
+| **C3** Responsive | **4** | 15 | **60** | Mobile-first, pas de scroll horizontal, grille CSS pour desktop, testé sur mobile (capture ok). |
+| **C4** UX & Accessibilité | **4** | 15 | **60** | Dark Mode (JS), contraste couleurs vérifié, navigation Sticky, attributs `alt` et `aria-label`. |
+| **C5** SEO | **4** | 10 | **40** | Title optimisé, Meta description présente, balises sémantiques, OpenGraph tags ajoutés. |
+| **C6** Performance | **4** | 10 | **40** | Pas de librairie lourde, CSS minifié, script `defer`, polices système, icônes SVG inline. |
+| **C7** Validation & corrections | **4** | 10 | **40** | Correction des chemins de fichiers (`css/`, `js/`), nettoyage historique Git, W3C valide. |
+| **C8** Publication Pages | **4** | 5 | **20** | Site en ligne, fonctionnel, testé sur mobile, mise à jour effectuée après premier déploiement. |
+| **C9** Auto‑évaluation | **4** | 5 | **20** | README complet incluant analyse technique, choix UX et liste des correctifs V1→Finale. |
+| **C10** Confidentialité | **4** | 5 | **20** | Aucune donnée sensible (tél/adresse) exposée. Contact via lien GitHub uniquement. |
+| **C11** Qualité du dépôt | **3** | 5 | **15** | Structure finale propre (`css/`, `js/`). *Note : Upload final via interface web.* |
+| **TOTAL** | | **100** | **395** | **Note estimée : 19,75 / 20** |
 
 ---
 *© 2025 Lilian Pompidou - Projet BTS SIO*
